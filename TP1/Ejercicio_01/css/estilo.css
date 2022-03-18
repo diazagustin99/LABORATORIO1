@@ -1,0 +1,108 @@
+/*Comente el código de este archivo*/
+html{
+    font-family: 'Montserrat', sans-serif ;
+}
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 3rem 2rem;
+    background-color: bisque;
+}
+
+body{
+    background-color: #efefef;
+}
+header h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: darkorange;
+    padding: 1em;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1em;
+    background-color: darkorange;
+    color: white;
+
+}
+
+nav a:hover, nav a:focus {
+    background-color: rgb(255, 203, 139);
+    color: white;
+}
+
+h2 {
+    margin-bottom: 1em;
+    padding-left:  3em;
+}
+
+figure {
+    width: 30%;
+    float: left;
+    margin-right: 1.3%;
+
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-style: oblique;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: darkorange;
+    padding: 1em;
+
+}
+
+footer img {
+    width: 6em;
+    display: block;
+    margin: auto;
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    padding-top: 2em;
+    width: 70%;
+    margin-bottom: 3em;
+}
+
+aside {
+    vertical-align: top;
+    width: 29%;
+    text-align: center;
+    padding-top: 2em;
+}
+
+aside h2 {
+    margin-bottom: 1.5em;
+}
+
+aside img {
+    width: 15em;
+}
