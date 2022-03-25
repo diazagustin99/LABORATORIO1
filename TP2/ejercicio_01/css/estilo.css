@@ -22,13 +22,15 @@ nav ul{
     justify-content: center;
 }
 nav a{
+    display: block;
     text-decoration: none;
-    padding: 1.55vh;
+    padding: 1vh;
     background-color: rgb(21, 21, 21);
     color: goldenrod;
 
 }
 nav ul li{
+    height: 5vh;
     display: flex;
     justify-content: center;
 }
@@ -38,7 +40,6 @@ nav a:hover, nav a:focus {
     background-color: goldenrod;
     color: rgb(21, 21, 21);
 }
-
 
 header{
 height: 10vh;
@@ -78,6 +79,30 @@ main figure img{
     width: 100%;
 }
 
+main article{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+}
+main article figure{
+    width: 23%;
+    margin: 1vh;
+}
+
+main article figure img{
+    width: 100%;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main article figure:hover, main article figure:focus{
+    background-color: rgb(28, 80, 48);
+}
 aside{
 min-width: 20vw;
 background-color: rgb(21, 21, 21);
