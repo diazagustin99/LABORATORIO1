@@ -1,0 +1,160 @@
+html{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-contenido{
+    height: 4vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu-contenido a{
+    padding: 1vh;
+    text-decoration: none;
+    color: rgb(64, 85, 116);
+}
+
+
+header{
+    height: 10vh;
+    background-color: rgb(64, 85, 116);
+    color: white;
+}
+
+header figure, header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+header figure{
+    height: 100%;
+}
+
+header figure img{
+    height: 100%;
+}
+
+nav{
+ height: 6vh;
+ background-color: rgb(171, 207,195);
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul a{
+    text-decoration: none;
+    padding: 2vh;
+    color: white;
+}
+
+nav a:hover, nav a:focus {
+border-bottom-width: 0.3rem;
+border-bottom-style: solid;
+border-bottom-color: rgb(64, 85, 116);
+color: rgb(64, 85, 116);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;    
+    padding: 2vh;
+    background-color: whitesmoke;
+}
+
+main figure{
+    padding: 2vh;
+}
+
+main h2{
+    font-size: 2rem;
+}
+#articulo-1{
+    width: 40vw;
+    background-color: rgb(64, 85, 116);
+    padding: 4vh;
+    color: white;
+    border-radius: 0 4rem 0 4rem;
+    border-radius: 4rem 0rem 4rem 0rem;
+
+    
+}
+
+#articulo-1 figure{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#articulo-1 figure img{
+    width: 100%;
+}
+
+#articulo-2{
+    width: 40vw;
+    background-color: rgb(64, 85, 116);
+    padding: 4vh;
+    color: white;
+    border-radius: 0 4rem 0 4rem;
+
+    
+}
+
+#articulo-2 figure{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#articulo-2 figure img{
+    width: 100%;
+}
+
+#articulo-1:hover ,#articulo-1:focus , #articulo-2:hover, #articulo-2:focus{
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+
+}
+
+
+footer{
+    color: white;
+    background-color: rgb(64, 85, 116);
+    height: 10vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 1vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 2vh;
+}
+
+footer a:hover, footer a:focus{
+    color: rgb(171, 207,195);
+}
+
+#menu-contenido a:hover, #menu-contenido a:focus{
+    color: rgb(171, 207,195);
+}
+
+
+
