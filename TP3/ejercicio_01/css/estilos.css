@@ -7,6 +7,12 @@ html{
     border: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 #menu-contenido{
@@ -72,7 +78,7 @@ border-bottom-color: rgb(64, 85, 116);
 color: rgb(64, 85, 116);
 }
 
-main{
+#main-inicio{
     display: flex;
     flex-direction: row;
     justify-content:space-around;    
@@ -80,11 +86,11 @@ main{
     background-color: whitesmoke;
 }
 
-main figure{
+#main-inicio figure{
     padding: 2vh;
 }
 
-main h2{
+#main-inicio h2{
     font-size: 2rem;
 }
 #articulo-1{
@@ -155,6 +161,73 @@ footer a:hover, footer a:focus{
 #menu-contenido a:hover, #menu-contenido a:focus{
     color: rgb(171, 207,195);
 }
+
+#contenedor-reparto{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.tarjeta-reparto {
+    background-color: red;
+    width: 30%;
+    margin: 1em;
+    border-radius: 2rem;
+}
+
+.tarjeta-reparto figure {
+    background-color: aqua;
+    width: 100%;
+    height: 35%;
+    padding: 1em;
+    border-radius: 2rem 2rem 0 0;
+}
+.tarjeta-reparto figure img{
+    border-radius: 100%;
+}
+
+.tarjeta-reparto p{
+    padding: 0.5rem;
+}
+
+/*.tarjeta-reparto figure{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+}
+
+.tarjeta-reparto figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.tarjeta-reparto h3{
+    text-align: center;
+    background-color: rgb(171, 207,195);
+    width: 100%;
+    margin: 0.3rem;
+}
+
+.tarjeta-reparto p{
+    background-color: blue;
+}
+
+.tarjeta-reparto{
+    width: 25vw;
+    background-color: rgb(64, 85, 116);
+    color: white;
+    border-radius: 4rem;
+    margin: 1vh;
+    padding: 1vh;
+
+    
+}*/
+
+
 
 
 
