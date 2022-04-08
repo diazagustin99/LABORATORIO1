@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>ADVENTURE EXTREME TV - INICIO</title>
+</head>
+
+<body>
+    <section id="opciones-nav">
+        <a href="#articulo-1">Saltar al contenido</a>
+        <a href="#navegador">Saltar a la navegacion</a>
+    </section>
+    <header>
+        <figure>
+            <img src="../img/logo-naranja.png" alt="Logo de la pagina">
+        </figure>
+        <section id="menu-login">
+            <a href="../index.html">Inicio</a>
+            <a href="registro.html">Registro</a>
+        </section>
+    </header>
+    <main>
+        <section id="contenedor-form">
+            <form action="algo.php" method="post">
+                <fieldset>
+                    <legend>Registro</legend>
+                    <label for="lbl-nombre">Nombre:</label>
+                    <input type="text" id="lbl-nombre" name="nombre" placeholder="Ingrese su nombre">
+                    <label for="lbl-mail">Mail:</label>
+                    <input type="email" name="email" id="lbl-mail" placeholder="Ingrese su mail">
+                    <label for="lbl-pass">Contraseña</label>
+                    <input type="password" name="pass" id="lbl-pass" placeholder="Ingrese su contraseña">
+                    <label for="lbl-fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="lbl-fecha">
+                    <label for="naci"> Seleccione su nacionalidad:
+                        <select name="pais" id="naci">
+                            <option value="Ninguna">--Seleccione una--</option>
+                            <option value="Arg">Argentina</option>
+                            <option value="Br">Brasil</option>
+                            <option value="Ch">Chile</option>
+                        </select>
+
+                    </label>
+                    <label for="lbl-noti">¿Desea recibir notificaciones?
+                    </label>
+                    <label for="man">No
+                        <input type="radio" name="opc-noti" id="no">
+                    </label>
+                    <label for="man">Si
+                        <input type="radio" name="opc-noti" id="si">
+                    </label> 
+                    <input type="submit" value="">
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
