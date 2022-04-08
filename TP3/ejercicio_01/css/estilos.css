@@ -163,7 +163,7 @@ footer a:hover, footer a:focus{
 }
 
 #contenedor-reparto{
-    background-color: blue;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -171,26 +171,119 @@ footer a:hover, footer a:focus{
     width: 100%;
 }
 
+
+
 .tarjeta-reparto {
-    background-color: red;
+    background-color: white;
     width: 30%;
     margin: 1em;
     border-radius: 2rem;
+    padding-bottom: 2rem;
+    border: 00.3rem solid rgb(171, 207,195);
+    border-collapse: collapse;
 }
 
 .tarjeta-reparto figure {
-    background-color: aqua;
+    background-color: rgb(64, 85, 116);
     width: 100%;
-    height: 35%;
-    padding: 1em;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 1.57rem 1.57rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
+
+.tarjeta-reparto figure figcaption{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(171, 207,195);
+text-align: center;
+    margin-top: 1rem;
+    padding-top: 00.5rem;
+    padding-bottom: 00.5rem;
+    color: rgb(64, 85, 116);
+
+}
+
 .tarjeta-reparto figure img{
     border-radius: 100%;
+    width: 9rem;
+    height: 9rem;
+margin: 0 auto;
+    margin-top: 1rem;
+    border: 00.3rem solid white;
 }
 
 .tarjeta-reparto p{
-    padding: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+margin-top: 1rem;
+color: rgb(64, 85, 116);
+
+}
+
+.tarjeta-reparto:hover, .tarjeta-reparto:focus{
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+}
+
+
+table, table tr th, table tr td{
+    border-collapse: collapse;
+    border: 00.3rem solid rgb(64, 85, 116);
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.contenedor-mainyaside {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+.contenedor-mainyaside main{
+    min-width: 85%;
+
+}
+
+
+table td, table th{
+    height: 4vh;
+    padding: 2vh;
+}
+
+table td:hover, table th:hover{
+    background-color: rgb(171, 207,195);
+    color: rgb(64, 85, 116);
+
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1vh;
+    border-left: 00.3rem solid rgb(171, 207,195);
+}
+aside figure{
+    width: 50%;
+    margin-top: 5vh;
+}
+
+aside figure img{
+    width: 100%;
+}
+
+aside a{
+    text-decoration: none;
+    color: rgb(64, 85, 116);
+
+}
+aside a:hover, aside a:focus{
+    color: rgb(171, 207,195);
 }
 
 /*.tarjeta-reparto figure{

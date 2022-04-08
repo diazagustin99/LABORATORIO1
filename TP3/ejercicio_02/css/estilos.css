@@ -1,0 +1,89 @@
+html{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    background-color: darkgrey;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+header h1{
+   padding-top: 8vh;
+   font-size: 3rem;
+}
+
+
+main{
+    height: 70vh;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 7vh;
+}
+
+table th, table td{
+    border: 0.2rem solid darkgrey;
+    padding: 0.3rem;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.color-mp3 section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.color-mp3-2 section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.alto-capacidad{
+    height: 10vh;
+    
+}
+
+.ancho-capacidad{
+    width: 3vw;
+}
+
+.alto-tiempo{
+    height: 20vh;
+}
+
+.contenedor-imgsmp3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(35, 35, 35);
+    height: 10vh;
+    text-align: center;
+    color: white;
+    padding-top: 4vh;
+}
+
+table th:hover, table td:hover{
+    background-color: darkgrey;
+    color: white;
+    border: 0.21rem solid white;
+}

@@ -1,0 +1,119 @@
+html{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif ;
+    background-color: rgb(179, 113, 0);
+}
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#opciones-nav{
+    height: 4vh;
+    background-color: rgb(255, 162, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#opciones-nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0.4rem;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+header figure{
+    height: 100%;
+    margin-left: 2rem;
+}
+
+img{
+    height: 100%;
+}
+
+#menu-login {
+height: 10vh;
+padding-top: 4vh;
+background-color: rgb(255, 162, 0);
+margin-top: 5vh;
+margin-left: auto;
+border-radius: 1rem 0 0 1rem;
+}
+
+#menu-login a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+}
+
+.contenedor-videos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding-bottom: 3vh;
+}
+
+.tarjeta-video{
+    width: 25vw;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(48, 48, 48);
+    border-radius: 1rem;
+}
+
+.tarjeta-video figure{
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.tarjeta-video figure img{
+    width: 100%;
+}
+
+.tabla-video tr{
+    height: 4vh;
+    
+}
+
+.tabla-video{
+    border-collapse: collapse;
+    border: 00.2rem solid rgb(48, 48, 48);
+    padding: 0.5rem;
+    width: 19.5vw;
+    margin-bottom: 3vh;
+}
+
+.tabla-video td, .tabla-video th{
+    border: 00.2rem solid rgb(255, 162, 0);
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.tabla-video th{
+    background-color: rgb(255, 162, 0);
+}
+
+
+
+
+
