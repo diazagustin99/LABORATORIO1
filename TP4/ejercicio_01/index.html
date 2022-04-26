@@ -9,27 +9,34 @@
 </head>
 <body>
     <section id="opciones-nav">
-        <a href="#articulo-1">Saltar al contenido</a>
-        <a href="#navegador">Saltar a la navegacion</a>
+        
+        <a href="#contenido">Saltar al contenido</a>
+        <a href="#menu-login">Saltar a la navegacion</a>
     </section>
     <header>
         <figure>
             <img src="img/logo-naranja.png" alt="Logo de la pagina">
         </figure>
         <section id="menu-login">
-            <a  href="index.html">Inicio</a>
-            <a href="html/registro.html">Registro</a>
+            <a href="#menu-login" id="boton-entrar">Menu</a>
+            <a href="#" id="btn-salir">Salir</a>
+            <nav id="menu">
+            <ul id="contenedor-enlaces">
+                <li> <a  href="index.html">Inicio</a></li>
+                <li><a href="html/registro.html">Registro</a></li>
+            </ul>
+        </nav>
         </section>
     </header>
         <main>
-            <section class="contenedor-videos">
+            <section class="contenedor-videos" id="contenido">
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video1.jpg" alt="">
+                        <img src="img/video1.jpg" alt="Hombre en moto acampando en la jungla">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -37,7 +44,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -45,7 +52,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>
@@ -57,11 +64,11 @@
                 </article>
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video2.jpg" alt="">
+                        <img src="img/video2.jpg" alt="hombre en moto en medio del barro atrapado">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -69,7 +76,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -77,7 +84,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>
@@ -89,11 +96,11 @@
                 </article>
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video3.jpg" alt="">
+                        <img src="img/video3.jpg" alt="hombre en la moto acampando en la jungla">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -101,7 +108,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -109,7 +116,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>
@@ -121,11 +128,11 @@
                 </article>
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video4.jpg" alt="">
+                        <img src="img/video4.jpg" alt="motocicleta caida en medio del barro">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -133,7 +140,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -141,7 +148,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>
@@ -154,11 +161,11 @@
 
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video5.jpg" alt="">
+                        <img src="img/video5.jpg" alt="hombre andando en motocicleta pasando por un charco">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -166,7 +173,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -174,7 +181,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>
@@ -187,11 +194,11 @@
 
                 <article class="tarjeta-video">
                     <figure>
-                        <img src="img/video6.jpg" alt="">
+                        <img src="img/video6.jpg" alt="hombre con traje militar y arma">
                     </figure>
                     <table class="tabla-video">
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Duracion
                             </th>
                             <td>
@@ -199,7 +206,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Calificacion
                             </th>
                             <td>
@@ -207,7 +214,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th scope="row">
                                 Genero
                             </th>
                             <td>

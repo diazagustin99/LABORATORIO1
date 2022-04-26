@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <section id="opciones-nav">
+        <a href="#main">Saltar al contenido</a>
+    </section>
+    <header>
+        <h1>ENCUESTA</h1>
+    </header>
+    <main id="main">
+        <form action="algo.php" method="get">
+            <fieldset class="form-rojo">
+                <legend class="form-rojo">Datos personales</legend>
+                <section>
+                    <label for="lbl-nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="lbl-nombre" placeholder="Ingrese su nombre..." required>
+                </section>
+                <section>
+                    <label for="lbl-mail">Mail:</label>
+                    <input type="email" name="mail" id="lbl-mail" placeholder="Ingrese su mail..." required>
+                </section>
+                <section>
+                    <label for="lbl-fecha">Fecha de nacimiento:</label>
+                    <input type="date" name="fnacimiento" id="lbl-fecha" value="2000-01-01">
+                </section>
+                <section>
+                    <label for="lbl-cel">Celular (con codigo de area, sin 0 ni 15):</label>
+                    <input type="tel" name="cel" id="lbl-cel" pattern="[0-9]{10}"
+                        placeholder="Ingrese su numero de celular...">
+                </section>
+            </fieldset>
+
+            <fieldset class="form-amarillo">
+                <legend class="form-amarillo">Sobre la carrera</legend>
+
+                <label class="selec" for="carre"> Indique en la carrera que se inscribio originalmente:
+                    <select name="Carrera" id="carre">
+                        <option value="Ninguna">--Seleccione una--</option>
+                        <option value="pu">Programador Universitario</option>
+                        <option value="li">Licenciatura en Informatica</option>
+                        <option value="II">Ingenieria en Informatica</option>
+                    </select>
+                </label>
+
+                <label for="lbl-noti">Recursa la carrera?
+                </label>
+                <section>
+                    <input class="class-radio" type="radio" name="opc-noti" id="si">
+                    <label for="si">Si
+                    </label>
+                </section>
+                <section>
+                    <input class="class-radio" type="radio" name="opc-noti" id="no" checked>
+                    <label for="no">No
+                    </label>
+                </section>
+                <p>Materias que cursa:</p>
+                <section>
+                    <input type="checkbox" name="checkAlgebra" id="lbl-checkAlg"><label
+                        for="lbl-checkAlg">Algebra</label>
+                </section>
+                <section>
+                    <input type="checkbox" name="checkcal" id="lbl-checkcal" ><label for="lbl-checkcal">Calculo I</label>
+
+                </section>
+                <section>
+                    <input type="checkbox" name="checklab" id="lbl-checklab" checked><label for="lbl-checklab">Laboratorio
+                        I</label>
+
+                </section>
+                <section>
+                    <input type="checkbox" name="checkECL" id="lbl-checkECL"><label for="lbl-checkECL">Elementos de
+                        computacion y logica</label>
+
+                </section>
+                <section>
+                    <input type="checkbox" name="checkotras" id="lbl-checkotras"><label
+                        for="lbl-checkotras">Otras</label>
+
+                </section>
+            </fieldset>
+
+            <fieldset class="bg-verde">
+                <legend class="bg-verde" >Sobre la materia</legend>
+                <p>Indique el horario de la comision de practica a la que asiste</p>
+                <label class="selec" for="diac"> Dia:
+                    <select name="dclase" id="diac">
+                        <option value="Ninguna">--Seleccione una--</option>
+                        <option value="Jueves">Jueves</option>
+                        <option value="Viernes">Viernes</option>
+                    </select>
+                </label>
+                <section>
+
+                    <label for="lbl-horaclase">Hora:</label>
+                    <input type="time" name="hclase" id="lbl-horaclase">
+                </section>
+                    <label for="lbl-barra">Indique el grado de satisfaccion respeto a la materia: (bajo)
+                        <input type="range" name="grados" id="lbl-barra" min="0" max="100" step="5">
+                        (mucho)
+                    </label>
+                    <label for="lbl-calif"> Del 1 al 10 como clasificaria al dictado de la materia?
+                        <input type="number" name="califdic" id="lbl-calif" min="0" max="10" value="5" required>
+                    </label>
+            </fieldset>
+            <section class="container-btns">
+                <input class="btn-form" type="submit" value="Enviar">
+                <input class="btn-form" type="reset" value="Limpiar">
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

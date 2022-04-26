@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>ADVENTURE EXTREME TV - INICIO</title>
+</head>
+
+<body>
+    <section id="opciones-nav">
+        <a href="#articulo-1">Saltar al contenido</a>
+        <a href="#navegador">Saltar a la navegacion</a>
+    </section>
+    <header>
+        <figure>
+            <img src="../img/logo-naranja.png" alt="Logo de la pagina">
+        </figure>
+        <section id="menu-login">
+            <a href="../index.html">Inicio</a>
+            <a href="registro.html">Registro</a>
+        </section>
+    </header>
+    <section class="contenedor-mainaside">
+        <main id="main-registro">
+            <section id="contenedor-form">
+                <form action="algo.php" method="post">
+                    <fieldset>
+                        <legend>Datos de suscripcion</legend>
+                        <label for="lbl-nombre">Nombre:</label>
+                        <input class="class-input" class="class-input" type="text" id="lbl-nombre" name="nombre"
+                            placeholder="Ingrese su nombre">
+                        <label for="lbl-mail">Mail:</label>
+                        <input class="class-input" type="email" name="email" id="lbl-mail"
+                            placeholder="Ingrese su mail">
+                        <label for="lbl-pass">Contraseña</label>
+                        <input class="class-input" type="password" name="pass" id="lbl-pass"
+                            placeholder="Ingrese su contraseña">
+                        <label for="lbl-fecha">Fecha de nacimiento</label>
+                        <input class="class-input" type="date" name="fecha" id="lbl-fecha" max="2006-12-31">
+                        <label for="naci"> Seleccione su nacionalidad:
+                            <select name="pais" id="naci">
+                                <option value="Ninguna">--Seleccione una--</option>
+                                <option value="Arg">Argentina</option>
+                                <option value="Br">Brasil</option>
+                                <option value="Ch">Chile</option>
+                            </select>
+
+                        </label>
+                        <label for="lbl-noti">¿Desea recibir notificaciones?
+                        </label>
+                        <section id="contenedor-opciones">
+                            <label for="no">No
+                                <input class="class-radio" type="radio" name="opc-noti" id="no">
+                            </label>
+                            <label for="si">Si
+                                <input class="class-radio" type="radio" name="opc-noti" id="si" checked>
+                            </label>
+                        </section>
+                        <input class="class-input btn-enviar" type="submit" value="Suscribirse">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <aside>
+            <section class="contenedor-form">
+                <form action="algo.php" method="post">
+                    <fieldset>
+                        <legend>¿Algun inconveniente? Contactanos</legend>
+                        <label for="lbl-mail2">Mail:</label>
+                        <input type="email" name="email" id="lbl-mail2" placeholder="Ingrese su mail">
+                        <label for="lbl-asunto">Asunto:</label>
+                        <input type="text" id="lbl-asunto" name="nombre" placeholder="Ingrese el asunto">
+                        <label for="lbl-consulta">Escriba su consulta:</label>
+                        <textarea name="consulta" id="lbl-consulta" cols="30" rows="12"
+                            placeholder="Aqui es donde debe escribir..."></textarea>
+                        <input class="btn-enviar" type="submit" value="Enviar consulta">
+                    </fieldset>
+                </form>
+            </section>
+        </aside>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
