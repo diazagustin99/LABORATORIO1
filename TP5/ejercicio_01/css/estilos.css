@@ -1,7 +1,7 @@
 html {
     background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
-    background-color: #333;
+    background-color: #2b2b2b;
 }
 
 * {
@@ -12,14 +12,20 @@ html {
 }
 
 @media all and (min-width: 320px) {
-    header{
+    .nav-link {
+        display: none;
+    }
+
+
+    header {
         height: 4rem;
-        background-color: rgb(179, 113, 0);
+        background-color: #1b1b1b;
         text-align: center;
         color: white;
         display: flex;
-       justify-content: center;
-       vertical-align: middle;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
     }
 
 
@@ -61,7 +67,7 @@ html {
     }
 
     #contenedor-menu {
-        background-color: whitesmoke;
+        background-color: rgb(198, 107, 240);
     }
 
     ul li a {
@@ -69,7 +75,7 @@ html {
         padding: 1rem;
         font-size: 1.5rem;
         text-decoration: none;
-        background-color: rgb(179, 113, 0);
+        background-color: #303030;
         display: block;
         text-align: center;
         margin-top: 0.5rem;
@@ -77,21 +83,166 @@ html {
     }
 }
 
-@media all and (min-width: 1024px){
-    .contenedor-link{
-        height: 10vh;
+.contenedor-colum{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta{
+    width: 80vw;
+    border-radius: 1rem;
+    margin-top: 5vw;
+    background-color: rgb(198, 107, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contenedor-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.tarjeta figure img{
+    border-radius: 1rem;
+}
+
+.tarjeta h2, .tarjeta p{
+    color: whitesmoke;
+    margin-top: 0.3rem;
+}
+
+.tarjeta p{
+    font-size: 2rem;
+}
+
+.tarjeta figcaption{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contenedor-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 107, 240);
+    width: 95vw;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+
+.contenedor-form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    padding: 1rem;
+}
+
+.contenedor-form fieldset label{
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.btn-input{
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    background-color: #303030;
+    color: rgb(198, 107, 240);
+}
+
+
+
+@media all and (min-width: 768px){
+    .contenedor-colum {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    
+    }
+
+    .tarjeta{
+        width: 44vw;
+        margin: 1rem;
+    }
+
+
+}
+
+
+@media all and (min-width: 1024px) {
+
+    .nav-link {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        height: 3vh;
+        align-items: center;
+        background-color: rgb(198, 107, 240);
+    }
+
+
+    .nav-link a {
+        text-decoration: none;
+        color: #303030;
+        padding: 0.5rem;
+
+    }
+
+    header {
+        height: 12vh;
+
+    }
+
+
+    .contenedor-link {
+        height: 6vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         list-style: none;
-        background-color: rgb(179, 113, 0);
-    }    
+        align-items: center;
+    }
 
-    .btn-menu{
+    .btn-menu {
         display: none;
     }
 
-    ul li a{
+    ul li a {
         font-size: 1rem;
+        background-color: none;
+        height: 100%;
+        margin: 0;
+        background-color: rgb(198, 107, 240);
+        color: #303030;
+    }
+
+    .tarjeta{
+        width: 26vw;
+        margin: 2vw;
+    }
+
+    .contenedor-colum{
+        margin-left: 3rem;
+    }
+
+}
+
+@media all and (min-width: 1440px){
+
+    .tarjeta{
+        width: 18vw;
+        margin: 2vw;
+    }
+    .contenedor-colum{
+        margin-left: 6rem;
     }
 }

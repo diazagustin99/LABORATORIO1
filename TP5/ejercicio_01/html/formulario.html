@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <section class="nav-link">
+        <a href="#menu">Ir a navegacion</a>
+        <a href="">Ir a contenido principal</a>
+    </section>
+    <header>
+        <h1>TITULO</h1>
+    </header>
+    <section id="contenedor-menu">
+        <a href="#contenedor-menu" class="btn-menu">
+            <figure>
+                <img src="../img/burger_menu.png" alt="">
+            </figure>
+        </a>
+        <a href="#" class="btn-cerrar">
+            <figure>
+                <img src="../img/cerrar_menu.png" alt="">
+            </figure>
+        </a>
+        <nav id="menu">
+            <ul class="contenedor-link">
+                <li><a href="../index.html">Columnas</a></li>
+                <li><a href="">Tablas</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Formulario</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <main>
+        <section class="contenedor-form">
+            <form action="algo.php" method="post">
+                <fieldset>
+                    <label for="lbl-nombre">Nombre</label>
+                    <input class="input-text" type="text" name="nombre" id="lbl-nombre" placeholder="Ingrese su nombre...">
+                    <label for="lbl-mail">Mail:</label>
+                    <input class="input-text" type="email" name="mail" id="lbl-mail" placeholder="Ingrese su mail...">
+                    <label for="lbl-fechan">Fecha de nacimiento:</label>
+                    <input class="input-text" type="date" name="nacimiento" id="lbl-fechan" max="2015-12-31" value="2000-05-05">
+                    <label for="lbl-textarea">Ingrese un comentario</label>
+                    <textarea name="comentario" id="lbl-textarea" cols="30" rows="10" placeholder="Ingrese un comentario aqui..."></textarea>
+                    <input class="btn-input" type="submit" value="Enviar comentario">
+                    <input class="btn-input" type="reset" value="Limpiar">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

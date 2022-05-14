@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Agustin Diaz">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title></title>
+</head>
+<body>
+    <section id="contenedor-menu">
+        <a href="#contenedor-menu" ><img src="img/abrir.png" id="btn-abrir"></a>
+        <a href="#" ><img src="img/cerrar.png" id="btn-cerrar"></a>
+        <nav>
+            <ul id="contenedor-enlaces">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Reservar</a></li>
+                <li><a href="html/galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <header>
+        <h1>Viajes a las estrellas</h1>
+    </header>
+    <section id="contenedor">
+        <aside>
+            <h2>merchandising</h2>
+
+            <a href="html/galeria.html">
+                <figure>
+                    <img src="img/merchandising.jpg" alt="Imagen con distintos tipos de merchandising de la serie">
+                </figure>
+            </a>
+        </aside>
+        <main>
+            <section id="contenedor-principal">
+                <article>
+                    <table>
+                        <caption>Series con Capitulos en Estreno</caption>
+                        <tr scope="colum" ><th>Foto</th><th scope="colum">Nombre</th><th scope="colum">Temporadas</th><th scope="colum">Donde ver</th></tr>
+                        <tr>
+                            <td><figure><img src="img/discovery.jpg" alt=""></figure></td>
+                            <td>Discovery</td>
+                            <td>4</td>
+                            <td>Paramount+</td>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="img/picard.jpg" alt=""></figure></td>
+                            <td>Picard</td>
+                            <td>2</td>
+                            <td>Prime Video</td>
+                        </tr>
+                        <tr>
+                            <td><figure><img src="img/strange.jpg" alt=""></figure></td>
+                            <td>Strange New Words</td>
+                            <td>1</td>
+                            <td>Sin cadena</td>
+                        </tr>
+                    </table>
+                </article>
+                <article >
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>Datos del interesado</legend>
+                            <section class="contenedor-inputlbl">
+                                <label for="lbl-apellido">Apellido:</label>
+                                <input type="text" name="apellido" id="lbl-apellido" placeholder="Ingrese su apellido...">
+                            </section>
+                            <section class="contenedor-inputlbl">                                
+                                <label for="lbl-nombre">Nombre</label>
+                                <input type="text" name="nombre" id="lbl-nombre" placeholder="Ingrese su nombre...">
+                            </section>
+                            <section class="contenedor-inputlbl">                                
+                                <label for="lbl-Correo">Correo:</label>
+                                <input type="text" name="email" id="lbl-Correo" placeholder="Ingrese su correo...">
+                            </section>
+                            <label for="lbl-checkbox">Seleccionar Producto:</label>
+                            <section class="contenedor-check">
+                                <input type="checkbox" name="Insignia" id="lbl-insignia">
+                                <label for="lbl-insignia">Insignia</label>
+                                <input type="checkbox" name="tazaQnegra" id="lbl-taza">
+                                <label for="lbl-taza">Taza Q negra</label>
+                                <input type="checkbox" name="remera" id="lbl-re">
+                                <label for="lbl-re">Remera</label>
+                                <input type="checkbox" name="unifcomp" id="lbl-uni">
+                                <label for="lbl-uni">Uniforme completo</label>
+                            </section>
+                            <section class="contenedor-inputlbl">
+                                <input type="submit" value="Reservar">
+                                <input type="reset" value="Limpiar">
+                            </section>
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </main>
+    </section>
+    <footer>
+        <a href="tel:+5493814291234">Contacto: (381) 4291234</a>
+    </footer>
+</body>
+</html>
